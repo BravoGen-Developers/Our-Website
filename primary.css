@@ -48,3 +48,10 @@ body
 {
  background-color: #25329c;  
 }
+.productdiv
+{
+  display: none;
+  height: 30%;
+  width: 15%;
+  background-color: #25329c; 
+}
