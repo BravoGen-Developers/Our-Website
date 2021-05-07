@@ -16,18 +16,18 @@
     var productdiv = document.getElementById("productdiv");
     var productbutton = document.getElementById("productbutton");
     var bookmarklets = document.getElementById("bookmarklets");
-    bookmarklets.style.dispay = "none";
+    bookmarklets.style.display = "none";
     productbutton.addEventListener("mouseover", expand, false);
      productdiv.style.display = "block"; 
     function expand()
     {
-      bookmarklets.style.dispay = "block";
+      bookmarklets.style.display = "block";
       productdiv.addEventListener("mouseout", close, false);
       productdiv.style.height = "400%";
     }
     function close()
     {
-      bookmarklets.style.dispay = "none";
+      bookmarklets.style.display = "none";
       productdiv.style.height = "0%";
     }
   </script>
