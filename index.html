@@ -19,6 +19,11 @@
     function expand()
     {
      productdiv.style.display = "block"; 
+      productdiv.addEventListener("mouseout", close, false);
+    }
+    function close()
+    {
+      productdiv.style.display = "none";
     }
   </script>
 </html>
