@@ -51,7 +51,8 @@ body
 .productdiv
 {
   display: none;
-  height: 30%;
+  height: 300%;
   width: 15%;
   background-color: #25329c; 
+  left: 70%;
 }
