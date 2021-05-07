@@ -50,6 +50,8 @@ body
 }
 .productdiv
 {
+  position: absolute;
+  top: 13%;
   display: none;
   height: 300%;
   width: 15%;
