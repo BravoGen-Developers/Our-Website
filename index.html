@@ -16,15 +16,14 @@
     var productdiv = document.getElementById("productdiv");
     var productbutton = document.getElementById("productbutton");
     productbutton.addEventListener("mouseover", expand, false);
+     productdiv.style.display = "block"; 
     function expand()
     {
-     productdiv.style.display = "block"; 
       productdiv.addEventListener("mouseout", close, false);
       productdiv.style.height = "400%";
     }
     function close()
     {
-      productdiv.style.display = "none";
       productdiv.style.height = "0%";
     }
   </script>
