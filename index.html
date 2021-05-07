@@ -13,6 +13,12 @@
 </div>
 </body>
   <script>
-    
+    var productdiv = document.getElementById("productdiv");
+    var productbutton = document.getElementById("productbutton");
+    productbutton.addEventListener("mouseover", expand, false);
+    function expand()
+    {
+     productdiv.style.display = "block"; 
+    }
   </script>
 </html>
