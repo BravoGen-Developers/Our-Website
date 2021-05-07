@@ -51,7 +51,7 @@ body
 .productdiv
 {
   position: absolute;
-  top: 13%;
+  top: 100%;
   display: none;
   height: 300%;
   width: 15%;
