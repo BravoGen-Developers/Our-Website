@@ -26,10 +26,12 @@ body
   font-size: 1.8vw;
   text-decoration: none;
   color: white;
+  transition: .3s;
 }
 .homebutton:hover
 {
  background-color: #25328c; 
+  transition: .3s;
 }
 .productbutton
 {
@@ -43,10 +45,12 @@ body
   font-size: 1.8vw;
   text-decoration: none;
   color: white;
+  transition: .3s;
 }
 .productbutton:hover
 {
  background-color: #25329c;  
+  transition: .3s;
 }
 .productdiv
 {
@@ -57,4 +61,9 @@ body
   width: 15%;
   background-color: #25329c; 
   left: 70%;
+  transition: .3s;
+}
+.productdiv:hover
+{
+ transition: .3s; 
 }
