@@ -14,11 +14,13 @@ body
 }
 .homebutton
 {
+  position: absolute;
+  top: 3%;
   width: 15%;
-  padding-top: 4%;
-  padding-right: 8%;
-  padding-bottom: 4%;
-  padding-left:8%;
+  padding-top: 3%;
+  padding-right: 7%;
+  padding-bottom: 3%;
+  padding-left:7%;
   background-color: blue;
   font-size: 1.8vw;
   text-decoration: none;
