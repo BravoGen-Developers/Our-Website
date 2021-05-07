@@ -55,9 +55,8 @@ body
 .productdiv
 {
   position: absolute;
-  top: 100%;
   display: none;
-  height: 300%;
+  height: 400%;
   width: 15%;
   background-color: #25329c; 
   left: 70%;
