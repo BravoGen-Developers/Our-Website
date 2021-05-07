@@ -31,3 +31,18 @@ body
 {
  background-color: #25328c; 
 }
+.productbutton
+{
+  position: absolute;
+  top: 0;
+  width: 15%;
+  left: 80%;
+  padding-top: 2%;
+  padding-right: 1%;
+  padding-bottom: 1.7%;
+  padding-left:4%;
+  background: none;
+  font-size: 1.8vw;
+  text-decoration: none;
+  color: white;
+}
