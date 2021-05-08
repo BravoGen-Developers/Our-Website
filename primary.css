@@ -38,7 +38,7 @@ body
   position: absolute;
   top: 0;
   width: 15%;
-  left: 70%;
+  left: 60%;
   height: 100%;
   border: none;
   background: none;
@@ -59,7 +59,7 @@ body
   height: 0%;
   width: 15%;
   background-color: #222087; 
-  left: 70%;
+  left: 60%;
   transition: .3s;
   z-index: 100;
 }
