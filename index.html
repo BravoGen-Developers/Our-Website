@@ -13,18 +13,27 @@
 </div>
 </body>
   <script>
+    var isOpen = false;
     var productdiv = document.getElementById("productdiv");
     var productbutton = document.getElementById("productbutton");
+    productbutton.addEventListener("click", expand, false);
     var bookmarklets = document.getElementById("bookmarklets");
     bookmarklets.style.display = "none";
-    productbutton.addEventListener("mouseover", expand, false);
+    //productbutton.addEventListener("mouseover", expand, false);
      productdiv.style.display = "block"; 
     function expand()
     {
-      bookmarklets.style.display = "block";
-      productdiv.addEventListener("mouseout", close, false);
-      productdiv.style.height = "400%";
-      productdiv.style.top = "0%";
+      if(isOpen == false)
+      {
+        bookmarklets.style.display = "block";
+        //productdiv.addEventListener("mouseout", close, false);
+        productdiv.style.height = "400%";
+        productdiv.style.top = "0%";
+      }
+      else
+      {
+        close();
+      }
     }
     function close()
     {
